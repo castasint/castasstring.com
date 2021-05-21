@@ -3,7 +3,7 @@ module.exports = {
     title: `castasstring.com`,
     author: {
       name: `Hanuma`,
-      summary: `who is Technology Architect building enterprise solutions`,
+      summary: `who is a Technology Architect building enterprise solutions`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
