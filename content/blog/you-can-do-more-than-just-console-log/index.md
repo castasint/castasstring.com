@@ -91,3 +91,39 @@ Let us say if we want to log the entire array, will that make a difference? Let 
 ```
 
 Isn't it nice and clean? This way of representation looks elegant and makes the information more readable.
+
+Should you wish to try it, here is the code sample:
+```
+const todoList = [
+  {
+    id: 1,
+    title: "delectus aut autem",
+    completed: false,
+  },
+  {
+    id: 2,
+    title: "quis ut nam facilis et officia qui",
+    completed: false,
+  },
+  {
+    id: 3,
+    title: "fugiat veniam minus",
+    completed: false,
+  },
+  {
+    id: 4,
+    title: "et porro tempora",
+    completed: true,
+  },
+];
+
+console.log(todoList[0]);
+
+console.table(todoList[0]);
+
+console.log(todoList);
+
+console.table(todoList);
+
+```
+
