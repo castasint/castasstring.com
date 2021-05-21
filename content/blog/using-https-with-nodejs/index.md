@@ -54,4 +54,4 @@ server.listen(portNumber);
 
 ```
 
-- Remember that even though the server is running on `HTTPS` protocol, you will need to take a lot of precautions to secure the data and your server(using things like rate limiting to prevent from DoS attacks) and have a defensive coding approach when working with browser-based internet-facing applications. Always look up the [OWASP-NODEJS-CHEATSHEET](https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html) and implement the best practices to the possible extent. 
+Remember that even though the server is running on `HTTPS` protocol, you will need to take a lot of precautions to secure the data and your server(using things like rate limiting to prevent from DoS attacks) and have a defensive coding approach when working with browser-based internet-facing applications. Always look up the [OWASP-NODEJS-CHEATSHEET](https://cheatsheetseries.owasp.org/cheatsheets/Nodejs_Security_Cheat_Sheet.html) and implement the best practices to the possible extent. 
