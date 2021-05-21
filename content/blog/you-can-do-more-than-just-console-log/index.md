@@ -7,7 +7,7 @@ description: console.log is the favorite line of code for 1000s of JavaScript
 ---
 
 
-> Writing a message, an object or any array to the console is definetly one of the things we do in everyday development. Often times when building real-world applications, you are required to log complex information to the console during development.
+> Writing a message, an object, or an array to the console is definitely one of the things we do in everyday development. Often times when building real-world applications, you are required to log complex information to the console during development.
 
 In this blog, we'll see how we can log complex objects to the console using the `console.table` function.
 
