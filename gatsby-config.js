@@ -11,6 +11,7 @@ module.exports = {
       twitter: `castasstring`,
     },
     keywords: `castasstring,nodejs,javascript,castasstring.com`,
+    image: `src/images/Hanuma-01.jpg`,
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,

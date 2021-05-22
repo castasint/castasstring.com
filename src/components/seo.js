@@ -22,6 +22,7 @@ const Seo = ({ description, lang, meta, title }) => {
               twitter
             }
             keywords
+            image
           }
         }
       }
@@ -31,6 +32,7 @@ const Seo = ({ description, lang, meta, title }) => {
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
   const keywords = site.siteMetadata.keywords
+  const image = site.siteMetadata.image
 
   return (
     <Helmet
@@ -61,6 +63,10 @@ const Seo = ({ description, lang, meta, title }) => {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: image,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -76,6 +82,10 @@ const Seo = ({ description, lang, meta, title }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `twitter:image`,
+          content: image,
+        },
       ].concat(meta)}
     />
   )
@@ -89,6 +99,7 @@ Seo.defaultProps = {
 
 Seo.propTypes = {
   description: PropTypes.string,
+  image: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
