@@ -5,11 +5,12 @@ module.exports = {
       name: `Hanuma`,
       summary: `who is a Technology Architect building enterprise solutions.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `castasstring.com`,
     siteUrl: `https://www.castasstring.com/`,
     social: {
       twitter: `castasstring`,
     },
+    keywords: `castasstring,nodejs,javascript,castasstring.com`,
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
