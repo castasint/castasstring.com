@@ -5,8 +5,6 @@ description: console.log is the favorite line of code for 1000s of JavaScript
   developers. While it definitely helps a lot during debugging and logging,
   console.table makes the information we print to the console easy to read.
 ---
-
-
 > Writing a message, an object or any array to the console is definetly one of the things we do in everyday development. Often times when building real-world applications, you are required to log complex information to the console during development.
 
 In this blog, we'll see how we can log complex objects to the console using the `console.table` function.
@@ -38,7 +36,7 @@ const todoList = [
 ];
 ```
 
-Now, let us pretend we're doing some debugging and want to see what is the 1st element in the array. So, let us use our favorite `console.log` function to log the element.
+Now, let us pretend we're doing some debugging and we'd like to see what is the 1st element in the array. So, let us use our favorite `console.log` function to log the element.
 
 `console.log(todoList[0]);`
 
@@ -62,7 +60,7 @@ This is a better representation than a simple line as we have seen with `console
 
 Let us say if we want to log the entire array, will that make a difference? Let us check -
 
-- First, let us try with our good old friend `console.log`. If we execute `console.log(todoList)`, the output will be something like this
+* First, let us try with our good old friend `console.log`. If we execute `console.log(todoList)`, the output will be something like this
 
 ```
 [
@@ -77,7 +75,7 @@ Let us say if we want to log the entire array, will that make a difference? Let 
 ]
 ```
 
-- Let us see if `console.table` can make it any better. So, if we execute `console.table(todoList)`, the output will be like this
+* Let us see if `console.table` can make it any better. So, if we execute `console.table(todoList)`, the output will be like this
 
 ```
 ┌─────────┬────┬──────────────────────────────────────┬───────────┐
@@ -93,6 +91,7 @@ Let us say if we want to log the entire array, will that make a difference? Let 
 Isn't it nice and clean? This way of representation looks elegant and makes the information more readable.
 
 Should you wish to try it, here is the code sample:
+
 ```
 const todoList = [
   {
@@ -124,6 +123,4 @@ console.table(todoList[0]);
 console.log(todoList);
 
 console.table(todoList);
-
 ```
-
